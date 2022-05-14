@@ -1,5 +1,6 @@
 function time/day
-function zombie/armor
 function time/day_night_alternation
+function zombie/armor
 function zombie/physique
 function zombie/summon
+function data/locked

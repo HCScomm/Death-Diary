@@ -1,4 +1,3 @@
-time add 0.0135
 execute @p[scores={hour=6,min=0,second=0}] ~~~ time set 0
 execute @p[scores={hour=6,min=10,second=100}] ~~~ time set 167
 execute @p[scores={hour=6,min=27,second=0}] ~~~ time set 450
@@ -6,7 +5,7 @@ execute @p[scores={hour=7,min=0,second=0}] ~~~ time set 1000
 execute @p[scores={hour=8,min=0,second=0}] ~~~ time set 2000
 execute @p[scores={hour=9,min=0,second=0}] ~~~ time set 3000
 execute @p[scores={hour=10,min=0,second=0}] ~~~ time set 4000
-execute @p[scores={hour=10,min=17,second=0}] ~~~ time set 4283.3
+execute @p[scores={hour=10,min=17,second=0}] ~~~ time set 4283
 execute @p[scores={hour=11,min=0,second=0}] ~~~ time set 5000
 execute @p[scores={hour=12,min=0,second=0}] ~~~ time set 6000
 execute @p[scores={hour=13,min=0,second=0}] ~~~ time set 7000
@@ -15,7 +14,7 @@ execute @p[scores={hour=14,min=0,second=0}] ~~~ time set 8000
 execute @p[scores={hour=15,min=0,second=0}] ~~~ time set 9000
 execute @p[scores={hour=16,min=0,second=0}] ~~~ time set 10000
 execute @p[scores={hour=17,min=0,second=0}] ~~~ time set 11000
-execute @p[scores={hour=17,min=37,second=0}] ~~~ time set 11616.6
+execute @p[scores={hour=17,min=37,second=0}] ~~~ time set 11617
 execute @p[scores={hour=17,min=50,second=200}] ~~~ time set 11834
 execute @p[scores={hour=18,min=0,second=0}] ~~~ time set 12000
 execute @p[scores={hour=18,min=0,second=3400}] ~~~ time set 12010

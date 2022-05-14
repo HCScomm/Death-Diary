@@ -1,37 +1,37 @@
 #function day
-execute @s[tag=!load] ~~~ scoreboard objectives add second dummy
-execute @s[tag=!load] ~~~ scoreboard objectives add min dummy
-execute @s[tag=!load] ~~~ scoreboard objectives add hour dummy
-execute @s[tag=!load] ~~~ scoreboard objectives add day dummy
-execute @s[tag=!load] ~~~ scoreboard objectives add day2 dummy
-execute @s[tag=!load] ~~~ scoreboard objectives add month dummy
-execute @s[tag=!load] ~~~ scoreboard objectives add year dummy
-execute @s[tag=!load] ~~~ scoreboard players add s second 0
-execute @s[tag=!load] ~~~ scoreboard players add m min 0
-execute @s[tag=!load] ~~~ scoreboard players add h hour 0
-execute @s[tag=!load] ~~~ scoreboard players add d day 0
-execute @s[tag=!load] ~~~ scoreboard players add m month 0
-execute @s[tag=!load] ~~~ scoreboard players add y year 0
-execute @s[tag=!load] ~~~ scoreboard players random s second 100 5900
-execute @s[tag=!load] ~~~ scoreboard players random m min 1 59
-execute @s[tag=!load] ~~~ scoreboard players random h hour 1 23
+scoreboard objectives add second dummy
+scoreboard objectives add min dummy
+scoreboard objectives add hour dummy
+scoreboard objectives add day dummy
+scoreboard objectives add day2 dummy
+scoreboard objectives add month dummy
+scoreboard objectives add year dummy
+scoreboard players add s second 0
+scoreboard players add m min 0
+scoreboard players add h hour 0
+scoreboard players add d day 0
+scoreboard players add m month 0
+scoreboard players add y year 0
+
+execute @s[tag=!load] ~~~ scoreboard players set s second 100
+execute @s[tag=!load] ~~~ scoreboard players set m min 0
+execute @s[tag=!load] ~~~ scoreboard players set h hour 6
 execute @s[tag=!load] ~~~ scoreboard players random d day 1 28
 execute @s[tag=!load] ~~~ scoreboard players random m month 1 12
 execute @s[tag=!load] ~~~ scoreboard players set y year 2020
 execute @s[tag=!load] ~~~ scoreboard players set y year2 4
 
 #function zombie/physique
-execute @s[tag=!load] ~~~ scoreboard objectives add speed dummy
-execute @s[tag=!load] ~~~ scoreboard objectives add strength dummy
-execute @s[tag=!load] ~~~ scoreboard objectives add resistance dummy
-execute @s[tag=!load] ~~~ scoreboard objectives add health dummy
+scoreboard objectives add speed dummy
+scoreboard objectives add strength dummy
+scoreboard objectives add resistance dummy
+scoreboard objectives add health dummy
 
 #function zombie/armor
-execute @s[tag=!load] ~~~ scoreboard objectives add head dummy
-execute @s[tag=!load] ~~~ scoreboard objectives add leg dummy
-execute @s[tag=!load] ~~~ scoreboard objectives add chest dummy
-execute @s[tag=!load] ~~~ scoreboard objectives add feet dummy
+scoreboard objectives add head dummy
+scoreboard objectives add leg dummy
+scoreboard objectives add chest dummy
+scoreboard objectives add feet dummy
 
-#function zombie/summon
-execute @s[tag=!load] ~~~ scoreboard objectives add zombies dummy
-execute @s[tag=!load] ~~~ scoreboard objectives add zombies2 dummy
+#添加标签
+tag @s add load

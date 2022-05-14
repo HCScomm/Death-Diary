@@ -27,6 +27,7 @@ scoreboard players operation @a second = s second
 #时间更替
 #秒
 execute @p[scores={second=6000..}] ~~~ scoreboard players add m min 1
+execute @p[scores={second=6000..}] ~~~ time add 20
 execute @p[scores={second=6000..}] ~~~ scoreboard players set s second 100
 
 #分

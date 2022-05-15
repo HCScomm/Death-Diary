@@ -1,0 +1,11 @@
+function time/day
+function time/seasons
+function time/day_night_alternation
+function zombie/armor
+function zombie/weapon
+function zombie/physique
+function zombie/summon
+function data/locked
+function data/temperature
+function data/title
+function data/weather

@@ -1,5 +1,6 @@
 # Death-Diary
 Coming soon
+![封面](https://s3.bmp.ovh/imgs/2022/05/15/10c22c7238b6e81e.png)
 
 # 行为包特色
 ## **游戏时间**将与**现实世界相同**。 

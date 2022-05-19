@@ -1,1 +1,0 @@
-tag @e[type=item,rx=0,rxm=0,ry=0,rym=0] add item

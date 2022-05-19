@@ -25,7 +25,7 @@ execute @e[type=villager,name="§eNPC§r",tag=trade,scores={brain=305,item=11}] 
 execute @e[type=villager,name="§eNPC§r",tag=trade,scores={brain=305,item=12}] ~~~ loot spawn ^^2^1 loot b5
 execute @e[type=villager,name="§eNPC§r",tag=trade,scores={brain=305,item=13}] ~~~ loot spawn ^^2^1 loot b6
 execute @e[type=villager,name="§eNPC§r",tag=trade,scores={brain=305,item=14}] ~~~ loot spawn ^^2^1 loot b7
-@e[type=villager,name="§eNPC§r",tag=trade,scores={brain=305,item=15}] ~~~ loot spawn ^^2^1 loot c1
+execute @e[type=villager,name="§eNPC§r",tag=trade,scores={brain=305,item=15}] ~~~ loot spawn ^^2^1 loot c1
 execute @e[type=villager,name="§eNPC§r",tag=trade,scores={brain=305,item=16}] ~~~ loot spawn ^^2^1 loot c2
 execute @e[type=villager,name="§eNPC§r",tag=trade,scores={brain=305,item=17}] ~~~ loot spawn ^^2^1 loot c3
 execute @e[type=villager,name="§eNPC§r",tag=trade,scores={brain=305,item=18}] ~~~ loot spawn ^^2^1 loot c4
